@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Aliana Janney Portfolio</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Fonts??? -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Zen+Loop&display=swap" rel="stylesheet">
+
+  </head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+
+  <!-- SIZZLE - NAVBAR TEXT ORIENTS RIGHT WHEN OPEN AS WELL -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark" id="navbar-spy">
+      <div class="container">
+        <a class="navbar-brand" href="#top"><i class="bi bi-house-fill"></i></a>
+        <div class="button-group">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#mission-section">Mission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills-section">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#inspiration-section">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+  <a name="top"></a>
+
+  <!-- Hero section -->
+  <section class="py-5" id="hero-section">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Aliana Janney</h1>
+        <p>Creating a better tomorrow for healthcare!</p>
+        <div id="profile-img"></div>
+      </div>
+    </div>
+    <!-- Start writing your hero section here. -->
+  </section>
+
+  <!-- Mission/Meet-me section -->
+
+  <section class="py-5" id="mission-section">
+    <div class="container">
+      <div class="row mt-5">
+        <!-- Start writing your Mission/Meet-me section here. -->
+        <h3 class="col-12">Mission</h3>
+        <div class="container">
+          <div class="row">
+        <img class="col-sm-12 col-lg-6 text-center" src="img/brain2.jpeg" alt="brain" id="mission-picture">
+        <p class="col-sm-12 col-lg-6 text-center align-middle">From my very first week on the floor as a nurse I realized that much of the technology we use as healthcare providers is not user friendly. Honestly, to many of us, it didn’t seem friendly to <em>anyone</em>. Myself and other staff would often become frustrated at how hard it seemed to use many of the items we needed every day. Electronic health records never seemed to really have the content we needed, intravenous pumps never seemed quite as smart as they were meant to be, many of the bedside products needed to be quality checked at inopportune times and some of them never seemed to load correctly. I immediately began dreaming of a better tomorrow for healthcare with improved technology. I aim to create technology for healthcare environments that is able to find the balance between the needs of the stakeholders – <b>corporations, healthcare providers, and patients</b>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills section -->
+
+  <section class="py-5" id="skills-section">
+    <div class="container">
+      <div class="row mt-5">
+
+    <!-- Start writing your skills section here. -->
+        <h3 class="col-12">Skills</h3>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill1" src="img/html5.png">
+          <p>HTML5</p>
+        </div>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill2" src="img/css3.png">
+          <p>CSS3</p>
+        </div>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill3" src="img/bootstrap5.svg">
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill-container col-sm-12 col-md-6 col-lg-3">
+          <img id="skill4" src="img/microsoft.png">
+          <p>Microsoft Office Suite</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inspiration Section -->
+
+  <section class="py-5" id="inspiration-section">
+    <div class="container">
+      <div class="row mt-5">
+      <h3>Inspiration</h3>
+        <div class="carousel slide" id="carousel-inspiration" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="0">
+            </button>
+            <button type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="1">
+            </button>
+            <button type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="2">
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/heartmoon.jpeg" alt="moon heart" id="carousel-photo">
+              <div class="carousel-caption">
+                <h5>“Unless someone like you cares a whole awful lot, Nothing is going to get better. It's not.”</h5>
+                <p>― Dr. Seuss, The Lorax</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/starrysky.jpeg" alt="starry sky" id="carousel-photo">
+              <div class="carousel-caption">
+                  <h5>Mistakes are a fact of life. It is the response to the error that counts.</h5>
+                  <p>― Nikki Giovanni</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/world.jpeg" alt="earth" id="carousel-photo">
+              <div class="carousel-caption">
+                  <h5>Success is not final, failure is not fatal: it is the courage to continue that counts.</h5>
+                  <p>― Winston Churchill</p>
+               </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-inspiration" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-inspiration" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-5" id="contact-section">
+  <div class="container">
+    <div class="row mt-5"">
+      <h3 class="col-12">Contact Me</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <!-- See https://icons.getbootstrap.com/ -->
+        <a class="btn col-sm-12 col-md-6 col-lg-3" href="mailto:aliana.janney.rn@gmail.com" target="_blank">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+        <a class="btn col-sm-12 col-md-6 col-lg-3" href="https://www.linkedin.com/in/aliana-janney-64b65820b/" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a class="btn col-sm-12 col-md-6 col-lg-3" href="https://github.com/alianajanney" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+        <a class="btn col-sm-12 col-md-6 col-lg-3" href="https://replit.com/@AlianaJanney" target="_blank">
+          <i class="bi bi-journal-code"></i>
+        </a>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Footer section -->
+
+  <!-- SIZZLE - FOOTER STAYS AT BOTTOM OF VIEW SCREEN -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-center my-auto" id="copyright"><small>&copy; Aliana Janney, 2021</small></p>
+    </div>
+  </footer>
+
+  
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
